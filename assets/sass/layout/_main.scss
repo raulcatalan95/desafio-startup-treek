@@ -1,0 +1,41 @@
+.imagen-parrafo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.parrafo-estadisticas{
+  height: 150px;
+  width: 400px;
+}
+
+.bg-price{
+  background-image: url(../img/bg-price.svg);
+  background-repeat: no-repeat;
+  height: 600px;
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  grid-template-rows: 30% 20% 20%;
+
+}
+.bg-price .precios{
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.bg-price .cartas{
+  grid-column: span 2;
+  grid-row: span 1;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.bg-price .card {
+  height: 400px;
+  width: 250px;
+  background-color: red;
+}
+.precios h3{
+  text-align: center;
+}

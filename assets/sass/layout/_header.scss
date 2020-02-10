@@ -1,0 +1,14 @@
+header .foto-portada{
+  height: 840px;
+background-image: url(../img/bg-hero.svg);
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.foto-portada .titulo-portada{
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 150px;
+  left: 55px;
+}
