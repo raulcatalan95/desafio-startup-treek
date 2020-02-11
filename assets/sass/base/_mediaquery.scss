@@ -1,0 +1,38 @@
+@media screen and (min-width:500px){
+  .botones-menu i {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:500px){
+  .menu-logo li{
+    display: none;
+  }
+  .botones-menu button{
+    display: none;
+  }
+
+  .botones-menu i{
+    font-size: 2rem;
+  }
+header .foto-portada{
+  background-position-y: bottom;
+  height: 550px;
+  }
+  .imagen-parrafo{
+    display: flex;
+    flex-direction: column;
+  }
+  .parrafo-estadisticas{
+    height: 150px;
+    width: auto;
+    margin: 20px 5px 30px 5px;
+  }
+
+  .bg-price{
+    background-size: contain;
+    background-position-x: center;
+    background-size: cover;
+  }
+}
