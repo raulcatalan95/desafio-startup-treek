@@ -9949,6 +9949,27 @@ h1 {
   color: red;
 }
 
+.imagen-estadisticas img {
+  animation: casa 3s linear infinite;
+}
+
+@keyframes casa {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .nav {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -10074,23 +10095,11 @@ header .foto-portada {
   color: #fff;
 }
 
-/*#card1 .boton1{
-  width: 80%;
-  margin: 20px 10% 0px 10%;
-  background-color: $ballblue;
-  border: none;
-  padding: 10px;
-  color: $white;
+.botones-menu #registrate:hover {
+  background-color: #77D1DD;
+  transition-property: all;
 }
-#card2 .boton2{
-  width: 80%;
-  margin: 0px 10% 0px 10%;
-  background-color: $ballblue;
-  border: none;
-  padding: 10px;
-  color: $white;
-}
-*/
+
 .card button {
   width: 80%;
   background-color: #2AB7CA;
@@ -10098,16 +10107,6 @@ header .foto-portada {
   padding: 5px;
   border: none;
   color: #fff;
-}
-
-#card1 hr {
-  margin-top: 52px;
-}
-
-.card hr {
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
