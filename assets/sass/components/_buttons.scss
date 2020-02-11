@@ -12,6 +12,10 @@
     background-color: $middleblue;
     transition-property: all;
   }
+  .botones-menu #registrate:focus{
+    background-color: $spanishgray;
+    transition-property: all;
+    }
 
 .card button{
   width: 80%;

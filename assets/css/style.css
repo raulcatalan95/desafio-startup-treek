@@ -9945,15 +9945,11 @@ h3 {
   font-weight: 400;
 }
 
-h1 {
-  color: red;
-}
-
 .imagen-estadisticas img {
-  animation: casa 3s linear infinite;
+  animation: barra 5s linear infinite;
 }
 
-@keyframes casa {
+@keyframes barra {
   0% {
     opacity: 0;
   }
@@ -10057,6 +10053,12 @@ header .foto-portada {
   width: 320px;
   background-color: #fff;
   margin: 0px 25px 50px 25px;
+  border: 1px solid #726F73;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 5px #726F73;
+  transition-property: all;
 }
 
 .bg-price {
@@ -10097,6 +10099,11 @@ header .foto-portada {
 
 .botones-menu #registrate:hover {
   background-color: #77D1DD;
+  transition-property: all;
+}
+
+.botones-menu #registrate:focus {
+  background-color: #8F9199;
   transition-property: all;
 }
 
