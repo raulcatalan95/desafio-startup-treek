@@ -10,32 +10,34 @@
   width: 400px;
 }
 
+ .bg-price .card {
+  height: 360px;
+  width: 320px;
+  background-color:$white;
+  margin:0px 25px 50px 25px;
+
+}
 .bg-price{
-  background-image: url(../img/bg-price.svg);
-  background-repeat: no-repeat;
-  height: 600px;
-  display: grid;
-  grid-template-columns:repeat(2,1fr);
-  grid-template-rows: 30% 20% 20%;
+ background-image: url(../img/bg-price.svg);
+ background-repeat: no-repeat;
+ height: 650px;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+
 
 }
-.bg-price .precios{
-  grid-column: span 2;
-  grid-row: span 1;
-}
-.bg-price .cartas{
-  grid-column: span 2;
-  grid-row: span 1;
+
+.cartas{
   display: flex;
-  justify-content: space-around;
-
+  flex-direction: row;
+  justify-content:center;
 }
-
-.bg-price .card {
-  height: 400px;
-  width: 250px;
-  background-color: red;
+#card1 hr{
+  margin-top: 52px;
 }
-.precios h3{
-  text-align: center;
+.card hr{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }

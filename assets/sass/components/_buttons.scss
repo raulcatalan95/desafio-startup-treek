@@ -8,3 +8,36 @@
     background-color: $ballblue;
     color: $white;
   }
+/*#card1 .boton1{
+  width: 80%;
+  margin: 20px 10% 0px 10%;
+  background-color: $ballblue;
+  border: none;
+  padding: 10px;
+  color: $white;
+}
+#card2 .boton2{
+  width: 80%;
+  margin: 0px 10% 0px 10%;
+  background-color: $ballblue;
+  border: none;
+  padding: 10px;
+  color: $white;
+}
+*/
+.card button{
+  width: 80%;
+  background-color: $ballblue;
+  margin:  0px 10% 0px 10%;
+  padding: 5px;
+  border: none;
+  color: $white;
+}
+#card1 hr{
+  margin-top: 52px;
+}
+.card hr{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}

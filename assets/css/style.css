@@ -9902,6 +9902,49 @@ h3 {
   font-size: 30px;
 }
 
+.bg-price h3 {
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.card h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+}
+
+.card p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.card li {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  padding: 1px;
+}
+
+.izquierda-footer a {
+  color: #E8E8E8;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.derecha-footer p {
+  color: #E8E8E8;
+  margin-right: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
 h1 {
   color: red;
 }
@@ -9927,6 +9970,7 @@ h1 {
 
 .menu-logo li a {
   color: #221D23;
+  text-decoration: none;
 }
 
 .botones-menu {
@@ -9951,6 +9995,30 @@ header .foto-portada {
   left: 55px;
 }
 
+.footer {
+  height: 100px;
+  background-color: #221D23;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.footer .izquierda-footer {
+  grid-column: span 1;
+  grid-row: span 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.derecha-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .imagen-parrafo {
   display: flex;
   flex-direction: row;
@@ -9963,35 +10031,36 @@ header .foto-portada {
   width: 400px;
 }
 
+.bg-price .card {
+  height: 360px;
+  width: 320px;
+  background-color: #fff;
+  margin: 0px 25px 50px 25px;
+}
+
 .bg-price {
   background-image: url(../img/bg-price.svg);
   background-repeat: no-repeat;
-  height: 600px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 30% 20% 20%;
-}
-
-.bg-price .precios {
-  grid-column: span 2;
-  grid-row: span 1;
-}
-
-.bg-price .cartas {
-  grid-column: span 2;
-  grid-row: span 1;
+  height: 650px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-.bg-price .card {
-  height: 400px;
-  width: 250px;
-  background-color: red;
+.cartas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.precios h3 {
-  text-align: center;
+#card1 hr {
+  margin-top: 52px;
+}
+
+.card hr {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .botones-menu button {
@@ -10003,6 +10072,42 @@ header .foto-portada {
 .botones-menu #registrate {
   background-color: #2AB7CA;
   color: #fff;
+}
+
+/*#card1 .boton1{
+  width: 80%;
+  margin: 20px 10% 0px 10%;
+  background-color: $ballblue;
+  border: none;
+  padding: 10px;
+  color: $white;
+}
+#card2 .boton2{
+  width: 80%;
+  margin: 0px 10% 0px 10%;
+  background-color: $ballblue;
+  border: none;
+  padding: 10px;
+  color: $white;
+}
+*/
+.card button {
+  width: 80%;
+  background-color: #2AB7CA;
+  margin: 0px 10% 0px 10%;
+  padding: 5px;
+  border: none;
+  color: #fff;
+}
+
+#card1 hr {
+  margin-top: 52px;
+}
+
+.card hr {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */

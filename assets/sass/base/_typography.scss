@@ -21,3 +21,42 @@
   font-weight: $bold;
   font-size: $x-large;
 }
+.bg-price h3{
+  text-align: center;
+  color: $white;
+  padding: 20px;
+  font-family: $raleway;
+  font-weight: $bold;
+  font-size: $x-large;
+
+}
+.card h2{
+  font-family: $raleway;
+  font-weight: $bold;
+  font-size: $xx-large;
+  text-align: center;
+}
+.card p{
+  font-family: $raleway;
+  font-weight: $regular;
+  font-size: $large;
+  margin-left: 20px;
+}
+.card li{
+  font-family: $opensans;
+  font-weight: $regular;
+  padding: 1px;
+}
+.izquierda-footer a{
+  color: $platinium;
+  text-decoration: none;
+  font-family: $opensans;
+  font-weight: $regular;
+
+}
+.derecha-footer p{
+  color: $platinium;
+  margin-right: 20px;
+  font-family: $opensans;
+  font-weight: $regular;
+}
